@@ -17,9 +17,9 @@ const Header = () => {
                 <section className='flex w-full lg:w-[70%] h-full'>
                     <div className='h-full w-full lg:w-max flex justify-center items-center relative'>
                         <Link className='h-full flex items-center' to='/'>
-                            <img src={logo} className='h-full lg:h-auto hidden lg:block' />
+                            <img src={logo} className='h-full lg:h-auto hidden mt-[0.2rem] lg:block' />
                             
-                            <img src={LogoMobile} className='h-full lg:h-auto block lg:hidden' />
+                            <img src={LogoMobile} className='h-full lg:h-auto mt-[0.2rem] block lg:hidden' />
                         </Link>
 
                         <button onClick={ToggleMenu} className='lg:hidden absolute left-0 cursor-pointer'>
