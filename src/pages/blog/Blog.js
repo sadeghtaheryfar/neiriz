@@ -1,4 +1,7 @@
 import React from 'react';
+import bazar from './../../images/bazar.png';
+import GooglePlay from './../../images/GooglePlay.png';
+import AppStor from './../../images/AppStor.png';
 import sec1 from './../../images/section1.png';
 
 const Blog = () => {
@@ -20,10 +23,38 @@ const Blog = () => {
                         <div className='text-[#757575] text-center lg:text-left font-semibold'>
                             <p>Stay tuned for something awesome!</p>
                         </div>
+                        
+                        <div className='mt-[3rem] mb-[1.5rem] hidden lg:flex'>
+                            <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%]'>
+                                <img className='h-full' src={AppStor} />
+                            </a>
+                            
+                            <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem]'>
+                                <img className='h-full' src={GooglePlay} />
+                            </a>
+
+                            <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%]'>
+                                <img className='h-full' src={bazar} />
+                            </a>
+                        </div>
                     </div>
 
                     <div className='px-[3rem] lg:p-0 lg:w-[50%] block'>
                         <img className='w-full' src={sec1} />
+                    </div>
+
+                    <div className='flex lg:hidden'>
+                        <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%]'>
+                            <img className='h-full' src={AppStor} />
+                        </a>
+                        
+                        <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem]'>
+                            <img className='h-full' src={GooglePlay} />
+                        </a>
+
+                        <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%]'>
+                            <img className='h-full' src={bazar} />
+                        </a>
                     </div>
                 </section>
             </main>

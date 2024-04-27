@@ -32,21 +32,21 @@ const Home = () => {
                             </div>
 
                             <div className='mt-[3rem] mb-[1.5rem] hidden lg:flex'>
-                                <a className='w-[33.333%]'>
-                                    <img className='w-full' src={AppStor} />
+                                <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%]'>
+                                    <img className='h-full' src={AppStor} />
                                 </a>
                                 
-                                <a className='w-[33.333%] mx-[1rem]'>
-                                    <img className='w-full' src={GooglePlay} />
+                                <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem]'>
+                                    <img className='h-full' src={GooglePlay} />
                                 </a>
 
-                                <a className='w-[33.333%]'>
-                                    <img className='w-full' src={bazar} />
+                                <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%]'>
+                                    <img className='h-full' src={bazar} />
                                 </a>
                             </div>
 
                             <div className='flex justify-center my-[1.5rem] flex lg:hidden'>
-                                <Link className='bg-[#C3DCE3] text-[#2B788B] font-semibold py-[0.6rem] px-[1rem] rounded-full'>
+                                <Link to='/about-us' className='bg-[#C3DCE3] text-[#2B788B] font-semibold py-[0.6rem] px-[1rem] rounded-full'>
                                     <span>About Neireez</span>
                                 </Link>
                             </div>
@@ -91,16 +91,16 @@ const Home = () => {
                         </div>
 
                         <div className='flex lg:hidden'>
-                            <a className='w-[33.333%]'>
-                                <img className='w-full' src={AppStor} />
+                            <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%]'>
+                                <img className='h-full' src={AppStor} />
                             </a>
                             
-                            <a className='w-[33.333%] mx-[1rem]'>
-                                <img className='w-full' src={GooglePlay} />
+                            <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem]'>
+                                <img className='h-full' src={GooglePlay} />
                             </a>
 
-                            <a className='w-[33.333%]'>
-                                <img className='w-full' src={bazar} />
+                            <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%]'>
+                                <img className='h-full' src={bazar} />
                             </a>
                         </div>
                     </section>

@@ -43,6 +43,17 @@ body{
 }
 
 
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+}
+
+
 main{
     overflow-x: hidden !important;
 }
@@ -122,8 +133,8 @@ textarea:focus{
 
 #main-coming{
     margin-top: 5.5rem;
-    max-height: calc(100vh - 17rem);
-    min-height: calc(100vh - 17rem);
+    max-height: calc(100vh - 14.5rem);
+    min-height: calc(100vh - 14.5rem);
     overflow: hidden;
     display: flex;
     justify-content: center;

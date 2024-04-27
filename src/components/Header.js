@@ -17,12 +17,12 @@ const Header = () => {
                 <section className='flex w-full lg:w-[70%] h-full'>
                     <div className='h-full w-full lg:w-max flex justify-center items-center relative'>
                         <Link className='h-full flex items-center' to='/'>
-                            <img src={logo} className='h-full lg:h-auto hidden mt-[0.2rem] lg:block' />
+                            <img src={logo} className='h-full max-w-none lg:h-[3.5rem] hidden mt-[0.2rem] lg:block' />
                             
                             <img src={LogoMobile} className='h-full lg:h-auto mt-[0.2rem] block lg:hidden' />
                         </Link>
 
-                        <button onClick={ToggleMenu} className='lg:hidden absolute left-0 cursor-pointer'>
+                        <button onClick={ToggleMenu} className='lg:hidden absolute left-[0.5rem] cursor-pointer'>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 7L22 7" stroke="black" stroke-width="1.4" stroke-linecap="square"/>
                             <path d="M2 12.5L16 12.5" stroke="black" stroke-width="1.4" stroke-linecap="square"/>
@@ -62,7 +62,7 @@ const Header = () => {
                             <img src={icon} className='h-full lg:h-auto' />
                         </Link>
 
-                        <button onClick={ToggleMenu} className='lg:hidden absolute left-[0.5rem] cursor-pointer'>
+                        <button onClick={ToggleMenu} className='lg:hidden absolute left-[1rem] cursor-pointer'>
                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.42456 5.85938L18.5753 19.0101" stroke="black" stroke-width="1.4"/>
                             <path d="M5.42456 19.1406L18.5753 5.98987" stroke="black" stroke-width="1.4"/>
