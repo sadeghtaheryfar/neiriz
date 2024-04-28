@@ -8,19 +8,19 @@ const Footer = () => {
                 <section className='w-[100%] lg:w-[70%] lg:py-[2rem]'>
                     <section className='w-full border-b-[2px] border-[#E0E0E0] pb-[1rem] mb-[1rem]'>
                         <ul className='menu-footer grid grid-cols-2 gap-4  lg:flex lg:justify-start  w-full'>
-                            <li>
+                            <li className='active:underline'>
                                 <Link to='/'>Home</Link>
                             </li>
                             
-                            <li>
+                            <li className='active:underline'>
                                 <Link to='/about-us'>About</Link>
                             </li>
                             
-                            <li>
+                            <li className='active:underline'>
                                 <Link to='/policy'>Privacy policy</Link>
                             </li>
                             
-                            <li>
+                            <li className='active:underline'>
                                 <Link to='/contact'>Contact us</Link>
                             </li>
                         </ul>
@@ -29,7 +29,7 @@ const Footer = () => {
                     <section className='flex flex-col items-center lg:flex-row w-full'>
                         <section className='w-full'>
                             <ul className='menu-footer flex justify-center lg:justify-start w-full'>
-                                <li>
+                                <li className='fucousAnim'>
                                     <a href='https://www.instagram.com/neireez.app/'>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1764_3185)">
@@ -46,7 +46,7 @@ const Footer = () => {
                                     </a>
                                 </li>
 
-                                <li>
+                                <li className='fucousAnim'>
                                     <a href='https://t.me/neireezapp'>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1764_3186)">
@@ -66,7 +66,7 @@ const Footer = () => {
                                     </a>
                                 </li>
 
-                                <li>
+                                <li className='fucousAnim'>
                                     <a href='https://www.linkedin.com/company/neireez-music-application/'>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1764_3187)">
@@ -81,7 +81,7 @@ const Footer = () => {
                                     </a>
                                 </li>
 
-                                <li>
+                                <li className='fucousAnim'>
                                     <a href='https://chat.whatsapp.com/HLzrhvP2FRS1QrSGfFxIy7'>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 24.0001L1.687 17.8371C0.645998 16.0331 0.0989998 13.9881 0.0999998 11.8911C0.103 5.33506 5.43799 6.10352e-05 11.993 6.10352e-05C15.174 0.00106104 18.16 1.24006 20.406 3.48806C22.6509 5.73606 23.8869 8.72406 23.8859 11.9021C23.8829 18.4591 18.548 23.7941 11.993 23.7941C10.003 23.7931 8.04198 23.2941 6.30499 22.3461L0 24.0001ZM6.59698 20.1931C8.27298 21.1881 9.87298 21.7841 11.989 21.7851C17.437 21.7851 21.875 17.3511 21.878 11.9001C21.88 6.43806 17.463 2.01006 11.997 2.00806C6.54498 2.00806 2.11 6.44206 2.108 11.8921C2.107 14.1171 2.75899 15.7831 3.85399 17.5261L2.85499 21.1741L6.59698 20.1931ZM17.984 14.7291C17.91 14.6051 17.712 14.5311 17.414 14.3821C17.117 14.2331 15.656 13.5141 15.383 13.4151C15.111 13.3161 14.913 13.2661 14.714 13.5641C14.516 13.8611 13.946 14.5311 13.773 14.7291C13.6 14.9271 13.426 14.9521 13.129 14.8031C12.832 14.6541 11.874 14.3411 10.739 13.3281C9.85598 12.5401 9.25898 11.5671 9.08598 11.2691C8.91298 10.9721 9.06798 10.8111 9.21598 10.6631C9.34998 10.5301 9.51298 10.3161 9.66198 10.1421C9.81298 9.97006 9.86198 9.84606 9.96198 9.64706C10.061 9.44906 10.012 9.27506 9.93698 9.12606C9.86198 8.97806 9.26798 7.51506 9.02098 6.92006C8.77898 6.34106 8.53398 6.41906 8.35198 6.41006L7.78198 6.40006C7.58398 6.40006 7.26198 6.47406 6.98998 6.77206C6.71798 7.07006 5.94999 7.78806 5.94999 9.25106C5.94999 10.7141 7.01498 12.1271 7.16298 12.3251C7.31198 12.5231 9.25798 15.5251 12.239 16.8121C12.948 17.1181 13.502 17.3011 13.933 17.4381C14.645 17.6641 15.293 17.6321 15.805 17.5561C16.376 17.4711 17.563 16.8371 17.811 16.1431C18.059 15.4481 18.059 14.8531 17.984 14.7291Z" fill="#25D366"/>
@@ -89,7 +89,7 @@ const Footer = () => {
                                     </a>
                                 </li>
 
-                                <li>
+                                <li className='fucousAnim'>
                                     <a href='https://youtube.com/@neireez?si=3UkNmPo-VhRrSwK4'>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1764_3189)">
@@ -108,7 +108,7 @@ const Footer = () => {
                         </section>
 
                         <section className='w-max flex justify-center items-center text-[#757575] mt-[1rem] lg:mt-[0rem]'>
-                            <span className='flex'>2024 <Link to='/about-us' className='underline ml-[0.5rem]'>Neireez</Link></span>
+                            <span className='flex'>2024 <Link to='/about-us' className='active:underline underline ml-[0.5rem]'>Neireez</Link></span>
                         </section>
                     </section>
                 </section>

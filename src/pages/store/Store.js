@@ -25,34 +25,34 @@ const Store = () => {
                         </div>
 
                         <div className='mt-[3rem] mb-[1.5rem] hidden lg:flex'>
-                            <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%]'>
+                            <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%] fucousAnim'>
                                 <img className='h-full' src={AppStor} />
                             </a>
                             
-                            <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem]'>
+                            <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem] fucousAnim'>
                                 <img className='h-full' src={GooglePlay} />
                             </a>
 
-                            <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%]'>
+                            <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%] fucousAnim'>
                                 <img className='h-full' src={bazar} />
                             </a>
                         </div>
                     </div>
 
-                    <div className='px-[3rem] lg:p-0 lg:w-[50%] block'>
+                    <div className='px-[3rem] my-[2rem] lg:my-0 lg:p-0 lg:w-[50%] block'>
                         <img className='w-full' src={sec1} />
                     </div>
 
-                    <div className='flex lg:hidden'>
-                        <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%]'>
+                    <div className='flex max-h-[2.5rem] lg:hidden'>
+                        <a href='https://apps.apple.com/us/app/neireez-music-application/id1668434011' className='w-[33.333%] fucousAnim'>
                             <img className='h-full' src={AppStor} />
                         </a>
                         
-                        <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem]'>
+                        <a href='https://play.google.com/store/apps/details?id=ir.neireez.app' className='w-[33.333%] mx-[1rem] fucousAnim'>
                             <img className='h-full' src={GooglePlay} />
                         </a>
 
-                        <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%]'>
+                        <a href='http://cafebazaar.ir/app/?id=ir.neireez.app&ref=share' className='w-[33.333%] fucousAnim'>
                             <img className='h-full' src={bazar} />
                         </a>
                     </div>

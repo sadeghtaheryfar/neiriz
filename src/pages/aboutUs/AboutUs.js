@@ -9,7 +9,7 @@ const AboutUs = () => {
                     <section className='w-[100%] lg:w-[60%] bg-white p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[0.5rem] text-[#757575]'>
                         <h2 className='font-bold text-[2rem] mb-[1rem]'>About us</h2>
 
-                        <p className='text-justify'>
+                        <p className='text-[15px] lg:text-[16px]'>
                             <p>Welcome to Neireez &ndash; the groundbreaking music application designed to empower musicians in their journey of learning and mastering music. At Neireez, we understand the challenges musicians face in their practice and learning sessions. That&#39;s why we&#39;ve developed an app that not only streamlines the learning process but also enriches every practice session with innovative tools and features.<br />
                             <br />
                             Our mission at Neireez is simple: to provide musicians with the resources they need to excel in their craft. Whether you&#39;re a beginner seeking guidance or a seasoned musician looking to refine your skills, Neireez is your dedicated companion on this musical odyssey.<br />
@@ -28,7 +28,7 @@ const AboutUs = () => {
                             <br />
                             Choose from our range of premium plans &ndash; whether it&#39;s a month, three months, six months, or a year &ndash; and enjoy uninterrupted access to premium features for the duration of your subscription. And with the option to extend your plan at any time, you&#39;re always in control of your musical journey.<br />
                             <br />
-                            Join the Neireez community today and embark on a transformative musical experience. Whether you&#39;re a passionate beginner or a seasoned virtuoso, Neireez is your gateway to musical excellence. Let&#39;s create beautiful music together. <br />
+                            Join the Neireez community today and embark on a transformative musical experience. Whether you&#39;re a passionate beginner or a seasoned virtuoso, Neireez is your gateway to musical excellence. Let&#39;s create beautiful music together.<br />
                             &nbsp;</p>
                             </p>
                     </section>

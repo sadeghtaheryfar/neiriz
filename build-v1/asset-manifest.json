@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a30224db.css",
-    "main.js": "/static/js/main.d99ffe26.js",
+    "main.css": "/static/css/main.c0e4c0f3.css",
+    "main.js": "/static/js/main.d070125b.js",
     "static/media/section1.png": "/static/media/section1.537b910306bcd19b7f63.png",
     "static/media/section7.png": "/static/media/section7.a83502d804697b421b19.png",
     "static/media/section6.png": "/static/media/section6.8aa7ec0cb7f890b0c162.png",
@@ -12,11 +12,11 @@
     "static/media/GooglePlay.png": "/static/media/GooglePlay.73f182fd94c9ad2157e2.png",
     "static/media/neiriz-logo-mobile.png": "/static/media/neiriz-logo-mobile.da0f05ffbd41a4e5f855.png",
     "index.html": "/index.html",
-    "main.a30224db.css.map": "/static/css/main.a30224db.css.map",
-    "main.d99ffe26.js.map": "/static/js/main.d99ffe26.js.map"
+    "main.c0e4c0f3.css.map": "/static/css/main.c0e4c0f3.css.map",
+    "main.d070125b.js.map": "/static/js/main.d070125b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a30224db.css",
-    "static/js/main.d99ffe26.js"
+    "static/css/main.c0e4c0f3.css",
+    "static/js/main.d070125b.js"
   ]
 }

@@ -33,23 +33,23 @@ const Header = () => {
 
                     <div className='w-full h-full hidden lg:flex'>
                         <ul className='menu-box-header w-full h-full flex items-center'>
-                            <li className={(location.pathname == '/') ? '!text-black' : ''}>
+                            <li className={(location.pathname == '/') ? '!text-black' : '' + 'active:underline'}>
                                 <Link to='/'>Home</Link>
                             </li>
 
-                            <li className={(location.pathname == '/contact') ? '!text-black' : ''}>
+                            <li className={(location.pathname == '/contact') ? '!text-black' : '' + 'active:underline'}>
                                 <Link to='/contact'>Contact</Link>
                             </li>
 
-                            <li className={(location.pathname == '/blog') ? '!text-black' : ''}>
+                            <li className={(location.pathname == '/blog') ? '!text-black' : '' + 'active:underline'}>
                                 <Link to='/blog'>Blog</Link>
                             </li>
 
-                            <li className={(location.pathname == '/store') ? '!text-black' : ''}>
+                            <li className={(location.pathname == '/store') ? '!text-black' : '' + 'active:underline'}>
                                 <Link to='/store'>Store</Link>
                             </li>
 
-                            <li className={(location.pathname == '/about-us') ? '!text-black' : ''}>
+                            <li className={(location.pathname == '/about-us') ? '!text-black' : '' + 'active:underline'}>
                                 <Link to='/about-us'>About</Link>
                             </li>
                         </ul>
@@ -72,23 +72,23 @@ const Header = () => {
 
                     <div>
                         <ul className='menu-mobile'>
-                        <li className={(location.pathname == '/') ? '!text-[#4ECDC4]' : ''}>
+                        <li className={(location.pathname == '/') ? '!text-[#4ECDC4]' : '' + 'active:underline'}>
                                 <Link to='/'>Home</Link>
                             </li>
 
-                            <li className={(location.pathname == '/contact') ? '!text-[#4ECDC4]' : ''}>
+                            <li className={(location.pathname == '/contact') ? '!text-[#4ECDC4]' : '' + 'active:underline'}>
                                 <Link to='/contact'>Contact</Link>
                             </li>
 
-                            <li className={(location.pathname == '/blog') ? '!text-[#4ECDC4]' : ''}>
+                            <li className={(location.pathname == '/blog') ? '!text-[#4ECDC4]' : '' + 'active:underline'}>
                                 <Link to='/blog'>Blog</Link>
                             </li>
 
-                            <li className={(location.pathname == '/store') ? '!text-[#4ECDC4]' : ''}>
+                            <li className={(location.pathname == '/store') ? '!text-[#4ECDC4]' : '' + 'active:underline'}>
                                 <Link to='/store'>Store</Link>
                             </li>
 
-                            <li className={(location.pathname == '/about-us') ? '!text-[#4ECDC4]' : ''}>
+                            <li className={(location.pathname == '/about-us') ? '!text-[#4ECDC4]' : '' + 'active:underline'}>
                                 <Link to='/about-us'>About</Link>
                             </li>
                         </ul>

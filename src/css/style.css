@@ -53,6 +53,20 @@ footer{
     margin-top: auto;
 }
 
+a:active{
+    transform: scale(1.2);
+}
+
+
+.fucousAnim{
+    transition: 0.2s;
+}
+
+
+.fucousAnim:active{
+    transform: scale(1.2);
+}
+
 
 main{
     overflow-x: hidden !important;

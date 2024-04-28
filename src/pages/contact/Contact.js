@@ -13,7 +13,7 @@ const Contact = () => {
             <main id='main-main' className='bg-[#F6F5F4]'>
                 <section className='w-[100%] flex justify-center items-center p-[2rem] mt-[4rem] lg:py-[4rem]'>
                     <section className='w-[100%] lg:w-[60%] lg:p-[2rem]'>
-                        <a href='https://www.instagram.com/neireez.app/' className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href='https://www.instagram.com/neireez.app/' className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={Instagram} />
                             </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                             </div>
                         </a>
                         
-                        <a href='https://chat.whatsapp.com/HLzrhvP2FRS1QrSGfFxIy7' className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href='https://chat.whatsapp.com/HLzrhvP2FRS1QrSGfFxIy7' className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={WhatsApp} />
                             </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                             </div>
                         </a>
 
-                        <a href='https://wa.me/qr/HV5YT7BECNNVN1' className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href='https://wa.me/qr/HV5YT7BECNNVN1' className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={WhatsApp} />
                             </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                             </div>
                         </a>
                         
-                        <a href='https://t.me/neireezapp' className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href='https://t.me/neireezapp' className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={Telegram} />
                             </div>
@@ -93,7 +93,7 @@ const Contact = () => {
                             </div>
                         </a>
 
-                        <a href="mailto:neireezapplication@gmail.com" className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href="mailto:neireezapplication@gmail.com" className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={mail} />
                             </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                             </div>
                         </a>
                         
-                        <a href='https://www.linkedin.com/company/neireez-music-application/' className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href='https://www.linkedin.com/company/neireez-music-application/' className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={LinkedIN} />
                             </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                             </div>
                         </a>
 
-                        <a href='https://youtube.com/@neireez?si=3UkNmPo-VhRrSwK4' className='transition hover:scale-[1.02] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
+                        <a href='https://youtube.com/@neireez?si=3UkNmPo-VhRrSwK4' className='transition active:bg-[#5dfff417] lg:active:bg-white lg:hover:scale-[1.02] lg:hover:bg-[#5dfff417] flex items-center bg-white my-[1rem] lg:my-[1.5rem] cursor-pointer p-[1rem] lg:p-[2rem] shadow-[0_0_25px_4px_#34292714] rounded-[1rem]'>
                             <div className='min-w-[3rem] w-[3rem] h-[3rem] mr-[1rem]'>
                                 <img className='w-full h-full' src={Youtube} />
                             </div>
